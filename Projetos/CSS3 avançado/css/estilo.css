@@ -1,0 +1,93 @@
+/* SELETOR UNIVERSAL 
+*{}*/
+/* SELETOR DE TEXTO 
+h1{}, h2{}, h3{}*/
+
+/*SELETOR DE CLASSSE 
+.verde{
+	color: green;
+}
+p.verde{
+	color: green;
+}*/
+
+/*SELETOR DE CLASSSE 
+#cabecalho{
+	border: 1px solid black;
+}*/
+
+/*SELETOR DE FILHO 
+li>a{
+	color: red;
+	text-decoration: none;
+}*/
+
+/* SELETOR DE DESCENDENTE 
+div a{
+	color: red;
+	text-decoration: none;
+}*/
+
+/* SELETOR DE IRMÃO ADJACENTE
+h1+p{
+	color: green;
+}*/
+
+/* SELETOR DE IRMÃO GERAL
+h1~p{
+	color: red;
+}*/
+
+/******** HERANÇA E ESPECIFICIDADE *********/
+/*
+*{
+	color: red;
+}
+
+h2{
+	color: blue;
+}
+
+h2.verde{
+	color: green;
+}
+h2#amarelo{
+	color: yellow;
+}*/
+
+
+/* ****** BARRA DE NAVEGAÇÃO VERTICAL *************
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+li{
+	padding: 5px 20px;
+	background: url(../imagens/seta.png) no-repeat left center;
+
+}
+*/
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul a {
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+	background: #f7b600 url(../imagens/menu.png) no-repeat left bottom;
+}
+a:hover{
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #FFF;
+}
