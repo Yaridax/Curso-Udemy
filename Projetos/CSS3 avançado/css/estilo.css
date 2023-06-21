@@ -134,9 +134,11 @@ body{
 }
 
 #container{
-	width: 720px;
+	width: 99%;
 	margin: 0 auto;
 	background: #FFF;
+	min-width: 720px;
+	max-width: 1280px;
 }
 
 #marca{
@@ -147,15 +149,15 @@ body{
 }
 
 #conteudo{
-	width: 520px;
+	width: 75%;
 	float: right;
 }
 #conteudo-principal{
-	width: 320px;
+	width: 65%;
 	float: left;
 }
 #conteudo-secundario{
-	width: 180px;
+	width: 33%;
 	float: right;
 	background: #d1d1d1;
 }
@@ -166,14 +168,14 @@ body{
 	padding-right: 20px;
 }
 
-
 #navegacao{
-	width: 180px;
+	width: 23%;
 	float: left;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	background: #d1d1d1;
 }
+
 #navegacao ul{
 	list-style: none;
 }
@@ -186,3 +188,4 @@ body{
 	background: #c4c4c4;
 	padding: 5px;
  }
+
