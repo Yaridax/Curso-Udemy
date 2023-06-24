@@ -126,7 +126,7 @@ ul a:hover {
 }
 */
 
-/* *************** LAYOUTS ************** */
+/* *************** LAYOUTS ************** 
 
 body{
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -149,11 +149,11 @@ body{
 	line-height: 200px;
 }
 
-/*
+
 #imagem{
 	width: 90%;
 	overflow: hidden;
-}*/
+}
 
 #conteudo{
 	width: 75%;
@@ -187,9 +187,10 @@ img.img-noticia{
 	float: left;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	/*background: #d1d1d1;*/
+	/*background: #d1d1d1;
 }
 
+/*
 #navegacao ul{
 	list-style: none;
 }
@@ -202,4 +203,41 @@ img.img-noticia{
 	background: #c4c4c4;
 	padding: 5px;
  }
+ */
 
+
+ /* **************** TABELAS ESTILIZADAS ***********************/
+
+ body{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ table{
+	width: 606px;
+	border-collapse: separate;/*collapse*/
+ }
+
+ th, td{
+	padding: 7px;
+ }
+
+ th{
+	text-transform: uppercase;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.1em;
+ }
+
+ tr.alternado{
+	background-color: #efefef;
+ }
+
+ tr:hover{
+	background-color: #c3e6e5;
+}
+
+ .numero{
+	text-align: right;
+ }
