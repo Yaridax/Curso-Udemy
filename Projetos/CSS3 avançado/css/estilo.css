@@ -206,7 +206,7 @@ img.img-noticia{
  */
 
 
- /* **************** TABELAS ESTILIZADAS ***********************/
+ /* **************** TABELAS ESTILIZADAS **********************
 
  body{
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -214,7 +214,7 @@ img.img-noticia{
 
  table{
 	width: 606px;
-	border-collapse: separate;/*collapse*/
+	border-collapse: separate;collapse
  }
 
  th, td{
@@ -240,4 +240,38 @@ img.img-noticia{
 
  .numero{
 	text-align: right;
+ }/*
+
+ /* ************** FORMULARIOS ESTILIZADOS ***************** */
+
+ body{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ fieldset{
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+ }
+
+ legend{
+	font-weight: bold;
+ }
+
+ label{
+	display: block;
+	cursor: pointer;
+ }
+
+ input[type="text"]{
+	width: 20em;
+ }
+ input[type="radio"]{
+	margin-right: 1em;
+ }
+
+ textarea{
+	width: 20em;
+	height: 10em;
  }
